@@ -1,0 +1,23 @@
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    padding: 1em;
+    font-family: var(--fonte);
+    font-weight: 500;
+}
+
+.navbar ul{
+    display:flex;
+    list-style: none;
+   
+}
+
+.navbar li{
+    margin: 10px;
+    
+}
+
+.navbar a{
+    color: aliceblue !important; 
+    text-decoration: none;
+}

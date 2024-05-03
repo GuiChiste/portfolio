@@ -1,0 +1,15 @@
+:root {
+  --azul-fundo:#0F1624;
+  --fonte: "Poppins", sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: var(--azul-fundo);
+  font-family: var(--fonte);
+}

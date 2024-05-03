@@ -1,0 +1,19 @@
+.presentation{
+    margin-top: 7%;
+    text-align: left;
+    margin-left: 15%;
+    font-family: var(--fonte);
+    color: aliceblue;
+}
+
+.presentation h1{
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.presentation p{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(188, 188, 188, 1);
+
+}

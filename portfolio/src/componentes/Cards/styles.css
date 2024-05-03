@@ -1,0 +1,35 @@
+.card{
+    padding: 5px;
+    margin: 5% 7% 0 auto;
+    border: 2px s ;
+    box-shadow: 5px 5px 15px rgba(255, 255, 255, 1); /* X-offset, Y-offset, blur radius, color */
+    border-radius: 50px 0px 50px 0px;  
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    transition-duration: 0.5s;
+}
+
+.card img{
+    width: 400px;
+    margin: 20px;
+}
+
+.card img:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.card h3{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.card p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    text-align: center;
+}
